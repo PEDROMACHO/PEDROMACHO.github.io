@@ -102,8 +102,31 @@ function section_size() {
 	if ($("div").is(".main-map-wrapper")) {
 		$(".main-map-wrapper").width(width-420);
 	}
+	$("footer").width(width-70);
 
 }
+
+
+function filter_toggle(toggle) {
+	var filter = toggle.parent().find('.filter-toggled');
+	if(toggle.hasClass('active')){
+		filter.css('display', 'inline-block');
+		filter.animate({left: 0}, 400);
+		if($(window).width()>480){
+			toggle.animate({left: 350}, 400)
+		}
+		
+
+	} else {
+		filter.animate({
+			left: -350}, 400, function() {
+			filter.css('display', 'none');
+		});
+		toggle.animate({left: -10}, 400)
+	}
+
+}
+
 
 window.onload = function() {
 	section_size();
@@ -187,5 +210,9 @@ window.onload = function() {
 		}
 	}
 
+	$(".filter-toggle").click(function(event) {
+		$(this).toggleClass('active');
+		filter_toggle($(this));
+	});
 }
 
