@@ -60,18 +60,18 @@ $(function() {
 
 	$(".body-type-dropdown-toggle").click(function(event) {
 		$(this).toggleClass('active');
-
+		var bg = $(this).parent(".body-type-dropdown");
 		if ($(this).hasClass('active')) {
-			$(".bg-blackout").css('display', 'block');
-			$(".bg-blackout").animate({opacity: 1}, 400);
+			bg.children('.bg-blackout').css('display', 'block');
+			bg.children('.bg-blackout').animate({opacity: 1}, 400);
 			$(".body-type-dropdown-filter").css('display', 'block');
 			$(".body-type-dropdown-filter").animate({height: "345px"}, 400)
 		} else {
 			
 			$(".body-type-dropdown-filter").animate({height: 0}, 400, function () {
 				$(".body-type-dropdown-filter").css('display', 'none');
-				$(".bg-blackout").animate({opacity: 1}, 400, function () {
-					$(".bg-blackout").css('display', 'none');
+				bg.children('.bg-blackout').animate({opacity: 1}, 400, function () {
+					bg.children('.bg-blackout').css('display', 'none');
 				});
 			});
 
