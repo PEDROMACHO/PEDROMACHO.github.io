@@ -16,6 +16,15 @@
         margin-right: 0;
         margin-bottom: 50px;
     }
+    .work-list__content-wrapper a{
+        width: calc((100% - 20px) / 3);
+    }
+}
+
+@media only screen and (max-width : 570px){
+    .work-list__content-wrapper a{
+        width: calc((100% - 20px) / 2);
+    }
 }
 
 @media only screen and (max-width : 544px){
@@ -46,5 +55,18 @@
     .plank__image-wrapper img{
         display: block;
         margin: 0 auto;
+    }
+    .billet__title-2-wrapper h2{
+        font-size: 30px;
+    }
+    .billet__title-2-wrapper span{
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width : 385px){
+    .work-list__content-wrapper a{
+        width: calc((100% - 20px));
     }
 }
