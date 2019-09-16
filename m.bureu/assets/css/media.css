@@ -1,0 +1,50 @@
+@media only screen and (max-width : 992px){
+    .header__menu-wrapper{
+        display: none;
+    }
+    .header__hamburder-wrapper{
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .footer{
+        flex-direction: column;
+    }
+    .footer__logo-wrapper,
+    .footer__contacts-wrapper{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width : 544px){
+    .billet{
+        padding-bottom: 130px;
+    }
+    .billet__title-wrapper h2{
+        font-size: 30px;
+    }
+    .article{
+        padding-top: 40px;
+    }
+    .article__title-wrapper{
+        margin-bottom: 20px;
+    }
+    .article__title-wrapper h2{
+        font-size: 30px;
+    }
+    .plank__title-wrapper h3{
+        font-size: 30px;
+    }
+    .plank__inner-wrapper{
+        margin-bottom: 20px;
+    }
+    .plank__image-wrapper{
+        width: 100%;
+    }
+    .plank__image-wrapper img{
+        display: block;
+        margin: 0 auto;
+    }
+}

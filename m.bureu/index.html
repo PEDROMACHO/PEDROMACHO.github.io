@@ -4,335 +4,95 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>M.Bureu</title>
-        
-        <link rel="stylesheet" href="assets/css/frontend.min.css">
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous">
         </script>
-        <script src="assets/js/frontend.min.js"></script>
+        
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.min.css">
+        <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+
+        <script src="assets/js/common.js"></script>
     </head>
-    <body class="home page-template-default page page-id-10 is-frontend static-mode mejs-semplice-ui">
-        <div id="content-holder">
-            <header class="nav_mt1p08gxa semplice-navbar active-navbar sticky-nav  menu-type-text scroll-to-top" data-cover-transparent="disabled" data-bg-overlay-visibility="hidden" data-mobile-fallback="enabled">
-                <div class="container" data-nav="logo-left-menu-right">
-                    <div class="navbar-inner menu-type-text" data-xl-width="12" data-navbar-type="container">
-                        <div class="logo navbar-left" data-font="font_ypexqvpga">
-                            <a href="#" title="M.">
-                                <img src="img/logo.png" alt="">
-                            </a>
-                        </div>
-                        <nav class="standard navbar-right">
-                            <ul class="menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-265">
-                                    <a href="https://setlastudio.com/" aria-current="page">
-                                        <span>Домой</span>
-                                    </a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="/work">
-                                        <span>О нас</span>
-                                    </a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="/services">
-                                        <span>Объекты</span>
-                                    </a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="/about-us">
-                                        <span>Контакты</span>
-                                    </a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="/labs">
-                                        <span>English</span>
-                                    </a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="/labs">
-                                        <span><img class="menu_instagramm" src="img/instagram.png" alt=""></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="hamburger navbar-right semplice-menu"><a class="open-menu menu-icon"><span></span></a></div>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header">
+                    <div class="header__logo-wrapper">
+                        <a href=""><img src="img/logo_full.png" alt="М."></a>
+                    </div>
+                    <div class="header__menu-wrapper">
+                        <ul>
+                            <li class="active"><a href="#">Домой</a></li>
+                            <li><a href="about-us.html">О нас</a></li>
+                            <li><a href="#">Объекты</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#"><img src="img/instagram.png" alt="insta"></a></li>
+                        </ul>
+                    </div>
+                    <div class="header__hamburder-wrapper">
+                        <p></p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
-            </header>
-
-            <div id="overlay-menu">
-                <div class="overlay-menu-inner" data-xl-width="12">
-                    <nav class="overlay-nav" data-justify="center" data-align="align-middle">
-                        <ul class="container">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-265"><a href="https://setlastudio.com/" aria-current="page"><span>Home</span></a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a href="/work">
-                                    <span>Домой</span>
-                                </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a href="/services">
-                                    <span>О нас</span>
-                                </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a href="/about-us">
-                                    <span>Объекты</span>
-                                </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a href="/labs">
-                                    <span>Контакты</span>
-                                </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a href="/de">
-                                    <span>English</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
             </div>
+        </header>
 
-            <div id="content-10" class="content-container active-content ">
-                <section style="height: 25vh;"></section>
-                <section style="background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(255,255,255,1) 100%);">
-                    <img src="img/interier.png" alt="" style="margin: 0 auto; display: block; max-width: 100%;">
-                </section>
-                <section style="height: 25vh;"></section>
-                <div class="sections">
-                    <section id="section_1a313a8de" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-layout="grid" data-gutter="yes" data-height="dynamic">
-            
-                        <div class="container">
-                            <div id="row_341fdf355" class="row">
-                                <div id="column_90ddaed99" class="column" data-xl-width="3">
-                                    <div class="content-wrapper">
-            
-                                        <div id="content_bb10d1a27" class="column-content" data-module="image">
-                                            <div class="ce-image" data-align="left">
-                                                <img class="is-content" src="img/logo_footer.png" width="100" height="100" alt="S E T L A Studio" caption="" data-width="original" data-scaling="no">
-                                            </div>
-                                        </div>
-            
-                                    </div>
-                                </div>
-                                <div id="column_36d02f83a" class="column" data-xl-width="3">
-                                    <div class="content-wrapper">
-            
-                                        <div id="content_a64ca898c" class="column-content" data-module="paragraph">
-                                            <div class="is-content">
-                                                <div data-content-for="xl">
-                                                    <p style="font-size: 0.888889rem; line-height: 1.33333rem; color: #5a5b5d;" data-mce-style="font-size: 0.888889rem; line-height: 1.33333rem;"><span class="font_mspzoq9bj">M. Bureau</span>
-                                                        <br>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                        <div id="content_583362fce" class="column-content" data-module="paragraph">
-                                            <div class="is-content has-sm has-xs">
-                                                <div data-content-for="xl">
-                                                    <p style="font-size: 0.888889rem; color: #5a5b5d; line-height: 1.33333rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.33333rem;">
-                                                        Москва
-                                                        <br>
-                                                        Архитектура Щусева 2/1,
-                                                        <br>
-                                                        
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                        <div id="content_7f377ecc9" class="column-content" data-module="paragraph">
-                                            <div class="is-content">
-                                                <div data-content-for="xl">
-                                                    <p style="font-size: 0.888889rem; line-height: 1.33333rem; color: #5a5b5d;" data-mce-style="font-size: 0.888889rem; line-height: 1.33333rem;"><a style="color: #5a5b5d;">&#65279;m.bureau.msk@gmail.com</a>
-                                                        <br>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                        <div id="content_f50205e44" class="column-content" data-module="paragraph">
-                                            <div class="is-content has-xs">
-                                                <div data-content-for="xl">
-                                                    <p style="font-size: 0.888889rem; line-height: 1.33333rem; color: #5a5b5d;" data-mce-style="font-size: 0.888889rem; line-height: 1.33333rem;">+7 (495) 532 5499</p>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                    </div>
-                                </div>
-                                <div id="column_51cc2adb4" class="column" data-xl-width="3">
-                                    <div class="content-wrapper">
-            
-                                        <div id="content_f50b5aa1d" class="column-content" data-module="paragraph">
-                                            <div class="is-content">
-                                                <div data-content-for="xl">
-                                                    <p style="font-size: 0.888889rem; line-height: 1.55556rem;" data-mce-style="font-size: 0.888889rem; line-height: 1.55556rem;"><a style="color: #5a5b5d;" href="https://setlastudio.com" data-mce-href="../">Домой</a><a style="color: #5a5b5d;" href="../work" data-mce-href="/work">&#65279;<br>О нас</a>
-                                                        <br><a style="color: #5a5b5d;" href="/services" data-mce-href="/services">Объекты</a>
-                                                        <br><a style="color: #5a5b5d;" href="/about-us" data-mce-href="/about-us">Контакты&#65279;</a>
-                                                        <br><a style="color: #5a5b5d;" href="/contact" data-mce-href="/contact" data-mce-selected="1">English&#65279;</a>
-                                                        <br>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                    </div>
-                                </div>
-                            </div>
+        <section style="height: 25vh;"></section>
+        <section style="background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(255,255,255,1) 100%);">
+            <img src="img/interier.png" alt="" style="margin: 0 auto; display: block; max-width: 100%;">
+        </section>
+        <section style="height: 25vh;"></section>
+
+        <footer>
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="footer">
+                        <div class="footer__logo-wrapper">
+                            <img src="img/logo_footer.png" alt="">
                         </div>
-                    </section>
+                        <div class="footer__contacts-wrapper">
+                            <ul>
+                                <li><b>M.Bureau</b></li>
+                                <li>Москва</li>
+                                <li>Архитектура Цусева 2,1,</li>
+                                <li>m.bureau.msk@gmail.com</li>
+                                <li>+7 (495) 532 5499</li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu-wrapper">
+                            <ul>
+                                <li>
+                                    <a href="#">Домой</a>
+                                </li>
+                                <li>
+                                    <a href="#">О нас</a>
+                                </li>
+                                <li>
+                                    <a href="#">Объекты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="#"><b>English</b></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-</body>
+        </footer>
+    </body>
 </html>
-
-
-<style type="text/css" id="semplice-webfonts-selfhosted">
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-Light.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-Thin.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-UltraLight.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-Italic.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-LightItalic.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-Medium.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue-Bold.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://www.setlastudio.com/webfonts/HelveticaNeue.woff2') format('woff2'),
-        url('https://www.setlastudio.com/webfonts/HelveticaNeue.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-</style>
-
-<style type="text/css" id="semplice-webfonts-css">
-.font_6iqwofdrp, [data-font="font_6iqwofdrp"], [data-font="font_6iqwofdrp"] li a, #content-holder h1, #content-holder h2, #content-holder h3 {font-family: "Helvetica Neue", sans-serif;font-weight: 300;font-style: normal;}.font_84k2hwj1y, [data-font="font_84k2hwj1y"], [data-font="font_84k2hwj1y"] li a {font-family: "Helvetica Neue", sans-serif;font-weight: 100;font-style: normal;}.font_i3tbo49fx, [data-font="font_i3tbo49fx"], [data-font="font_i3tbo49fx"] li a {font-family: "Helvetica Neue", sans-serif;font-weight: 400;font-style: italic;}.font_axarht56l, [data-font="font_axarht56l"], [data-font="font_axarht56l"] li a {font-family: "Helvetica Neue", sans-serif;font-weight: 300;font-style: italic;}.font_0ce057lz2, [data-font="font_0ce057lz2"], [data-font="font_0ce057lz2"] li a {font-family: "Helvetica Neue", sans-serif;font-weight: 500;font-style: normal;}.font_mspzoq9bj, [data-font="font_mspzoq9bj"], [data-font="font_mspzoq9bj"] li a {font-family: "Helvetica Neue", sans-serif;font-weight: 700;font-style: normal;}.font_ypexqvpga, [data-font="font_ypexqvpga"], [data-font="font_ypexqvpga"] li a, #content-holder p, #content-holder li {font-family: "Helvetica Neue", sans-serif;font-weight: 400;font-style: normal;}</style>
-		<style type="text/css" id="semplice-custom-css">
-			.container {
-			max-width: 1230px;
-		}@media screen and (max-width: 1169px) { .row {
-			margin-left: -15px;
-			margin-right: -15px;
-		}.column, .grid-column {
-			padding-left: 15px;
-			padding-right: 15px;
-		}}@media screen and (min-width: 1170px) { .row {
-			margin-left: -0px;
-			margin-right: -0px;
-		}.column, .grid-column {
-			padding-left: 0px;
-			padding-right: 0px;
-		}}
-			#content-holder h1 { font-size: 2.2222222222222223rem;line-height: 2.888888888888889rem;}#content-holder h2 { font-size: 1.6666666666666667rem;line-height: 2.5rem;}#content-holder p, #content-holder li { font-size: 0.8888888888888888rem;line-height: 1.33333333333;}#content-holder .is-content p { margin-bottom: 1.33333333333em; }@media screen and (min-width: 992px) and (max-width: 1169px) { #content-holder h1 { font-size: 2.04rem; line-height: 2.66rem; }#content-holder h2 { font-size: 1.53rem; line-height: 2.3rem; }#content-holder h3 { font-size: 1.49rem; line-height: 1.92rem; }#content-holder h4 { font-size: 1.28rem; line-height: 1.92rem; }#content-holder h5 { font-size: 1.11rem; line-height: 1.78rem; }#content-holder h6 { font-size: 1rem; line-height: 1.67rem; }}@media screen and (min-width: 768px) and (max-width: 991px) { #content-holder h1 { font-size: 1.91rem; line-height: 2.48rem; }#content-holder h2 { font-size: 1.47rem; line-height: 2.2rem; }#content-holder h3 { font-size: 1.43rem; line-height: 1.84rem; }#content-holder h4 { font-size: 1.23rem; line-height: 1.84rem; }#content-holder h5 { font-size: 1.11rem; line-height: 1.78rem; }#content-holder h6 { font-size: 1rem; line-height: 1.67rem; }}@media screen and (min-width: 544px) and (max-width: 767px) { #content-holder h1 { font-size: 1.82rem; line-height: 2.37rem; }#content-holder h2 { font-size: 1.4rem; line-height: 2.1rem; }#content-holder h3 { font-size: 1.4rem; line-height: 1.8rem; }#content-holder h4 { font-size: 1.2rem; line-height: 1.8rem; }#content-holder h5 { font-size: 1.11rem; line-height: 1.78rem; }#content-holder h6 { font-size: 1rem; line-height: 1.67rem; }}@media screen and (max-width: 543px) { #content-holder h1 { font-size: 1.73rem; line-height: 2.25rem; }#content-holder h2 { font-size: 1.33rem; line-height: 2rem; }#content-holder h3 { font-size: 1.37rem; line-height: 1.76rem; }#content-holder h4 { font-size: 1.17rem; line-height: 1.76rem; }#content-holder h5 { font-size: 1.11rem; line-height: 1.78rem; }#content-holder h6 { font-size: 1rem; line-height: 1.67rem; }}
-			a { color: #020000; }a:hover { color: #1573dd; }@media screen and (max-width: 543px){.is-frontend .semplice-navbar {
-position: fixed !important;
-}}#nprogress .bar { background: #000000; }
-			
-		.project-panel {
-			background: #f5f5f5;
-			padding: 2.5rem 0rem;
-		}
-		.pp-thumbs {
-			margin-bottom: -1.666666666666667rem;
-		}
-		#content-holder .panel-label, .projectpanel-preview .panel-label {
-			color: #000000;
-			font-size: 1.777777777777778rem;
-			text-transform: none;
-			padding-left: 0rem;
-			padding-bottom: 1.666666666666667rem;
-			text-align: left;
-			line-height: 1;
-		}
-		.project-panel .pp-title {
-			padding: 0.5555555555555556rem 0rem 1.666666666666667rem 0rem;
-		}
-		.project-panel .pp-title a {
-			color: #000000; 
-			font-size: 0.7222222222222222rem; 
-			text-transform: none;
-		} 
-		.project-panel .pp-title span {
-			color: #999999;
-			font-size: 0.7222222222222222rem;
-			text-transform: none;
-		}
-	
-		</style>
-	
-		<style type="text/css" id="10-post-css">
-			.cover-transparent { background: rgba(0,0,0,0) !important; }#content-10 .sections { margin-top: 0px !important; }#content-10 #cover-10 > .background-video {background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;background-attachment: scroll;}#content-10 #column_11zx7rbz9 {padding-top: 0rem;}#content-10 #content_bjp0jxufj {padding-top: 0.8888888888888888rem;}#content-10 #content_bjp0jxufj .is-content {}@media screen and (max-width: 543.9px) { #content-10 #content_bjp0jxufj {padding-top: 1.3333333333333333rem;}#content-10 #content_bjp0jxufj .is-content {}}
-				#content-10 #content_715a65168 .is-content {border-width: 0.05555555555555555rem !important;background-color: transparent;border-color: #ffffff !important;}
-				#content-10 #content_715a65168 .is-content:hover {background-color: #ffffff !important;color: #ffffff !important;}
-				#content-10 #content_715a65168 .is-content a{font-size: 0.6666666666666666rem;letter-spacing: 0.2222222222222222rem;margin-right: -0.2222222222222222rem;padding-top: 0.6666666666666666rem;padding-right: 1.3333333333333333rem;padding-left: 1.3333333333333333rem;padding-bottom: 0.6666666666666666rem;color: #ffffff;}
-				#content-10 #content_715a65168 .is-content:hover a {color: #000000 !important;letter-spacing: 0.2222222222222222rem !important;margin-right: -0.2222222222222222rem;}
-			#content-10 #content_715a65168 {padding-top: 1.3333333333333333rem;}#content-10 #content_715a65168 .is-content {}#content-10 #content_l9bm7o9ag .spacer { background-color: transparent; }#content-10 #content_l9bm7o9ag .spacer { height: 1.0555555555555556rem; }
-				#content-10 #content_wulloi0vw .is-content {background-color: transparent;}
-				#content-10 #content_wulloi0vw .is-content:hover {background-color: #ffffff !important;color: #ffffff !important;}
-				#content-10 #content_wulloi0vw .is-content a{padding-top: 0.6666666666666666rem;letter-spacing: 0.2222222222222222rem;margin-right: -0.2222222222222222rem;font-size: 0.6666666666666666rem;color: #ffffff;padding-right: 1.3333333333333333rem;padding-bottom: 0.6666666666666666rem;padding-left: 1.3333333333333333rem;}
-				#content-10 #content_wulloi0vw .is-content:hover a {color: #000000 !important;}
-			#content-10 #content_wulloi0vw {}#content-10 #content_wulloi0vw .is-content {border-width: 0.05555555555555555rem;border-color: #ffffff;}#content-10 #section_3374m2o4w {margin-top: 5.388888888888889rem;}@media screen and (max-width: 543.9px) { #content-10 #section_3374m2o4w {margin-top: 1.8888888888888888rem;}}#content-10 #content_gvhmrqyg3 {padding-top: 0.3333333333333333rem;margin-top: 0rem;}#content-10 #content_gvhmrqyg3 .is-content {}#content-10 #column_vmvqw7u15 {}#content-10 #content_flshfk2or {margin-top: 0rem;padding-right: 0rem;}#content-10 #content_flshfk2or .is-content {}@media screen and (min-width: 544px) and (max-width: 767.9px) { #content-10 #content_flshfk2or {margin-top: 1.7777777777777777rem;}#content-10 #content_flshfk2or .is-content {}}@media screen and (max-width: 543.9px) { #content-10 #content_flshfk2or {padding-top: 0.8333333333333334rem;margin-top: 0rem;}#content-10 #content_flshfk2or .is-content {}}
-				#content-10 #content_np6my60y4 .is-content {background-color: transparent;border-color: #000000 !important;border-width: 0.05555555555555555rem !important;}
-				#content-10 #content_np6my60y4 .is-content:hover {border-color: #000000 !important;background-color: #020202 !important;}
-				#content-10 #content_np6my60y4 .is-content a{font-size: 0.6666666666666666rem;letter-spacing: 0.2222222222222222rem;margin-right: -0.2222222222222222rem;padding-right: 1.3333333333333333rem;padding-left: 1.3333333333333333rem;padding-top: 0.6666666666666666rem;padding-bottom: 0.6666666666666666rem;}
-				#content-10 #content_np6my60y4 .is-content:hover a {color: #ffffff !important;letter-spacing: 0.2222222222222222rem !important;margin-right: -0.2222222222222222rem;}
-			#content-10 #content_np6my60y4 {margin-top: 1.3333333333333333rem;}#content-10 #content_np6my60y4 .is-content {}
-				#content-10 #content_xo5yj0cgv .is-content {background-color: transparent;border-color: #000000 !important;border-width: 0.05555555555555555rem !important;}
-				#content-10 #content_xo5yj0cgv .is-content:hover {border-color: #000000 !important;background-color: #020202 !important;}
-				#content-10 #content_xo5yj0cgv .is-content a{font-size: 0.6666666666666666rem;letter-spacing: 0.2222222222222222rem;margin-right: -0.2222222222222222rem;padding-right: 1.3333333333333333rem;padding-left: 1.3333333333333333rem;padding-top: 0.6666666666666666rem;padding-bottom: 0.6666666666666666rem;}
-				#content-10 #content_xo5yj0cgv .is-content:hover a {color: #ffffff !important;letter-spacing: 0.2222222222222222rem !important;margin-right: -0.2222222222222222rem;}
-			#content-10 #content_xo5yj0cgv {margin-top: 0.8333333333333334rem;}#content-10 #content_xo5yj0cgv .is-content {}#content-10 #section_012e91kaz {margin-top: 4.444444444444445rem;}@media screen and (max-width: 543.9px) { #content-10 #section_012e91kaz {margin-top: 1rem;}}#content-10 #column_5evaqz8gf {padding-top: 0rem;padding-bottom: 0rem;}#content-10 #content_koinmbnxn {padding-top: 0rem;margin-top: 0rem;}#content-10 #content_koinmbnxn .is-content {}
-				#content-10 #content_sm9va0mkm .is-content {border-color: #000000 !important;border-width: 0.05555555555555555rem !important;background-color: #ffffff;}
-				#content-10 #content_sm9va0mkm .is-content:hover {border-color: #000000 !important;background-color: #020202 !important;color: #020202 !important;}
-				#content-10 #content_sm9va0mkm .is-content a{font-size: 1rem;letter-spacing: 0.2222222222222222rem;margin-right: -0.2222222222222222rem;padding-right: 2.2222222222222223rem;padding-left: 2.2222222222222223rem;color: #020202;padding-top: 0.8888888888888888rem;padding-bottom: 0.8888888888888888rem;}
-				#content-10 #content_sm9va0mkm .is-content:hover a {color: #ffffff !important;letter-spacing: 0.2222222222222222rem !important;margin-right: -0.2222222222222222rem;}
-			#content-10 #content_sm9va0mkm {margin-top: 5.555555555555555rem;margin-bottom: 5.555555555555555rem;}#content-10 #content_sm9va0mkm .is-content {}@media screen and (max-width: 543.9px) { #content-10 #content_sm9va0mkm {margin-top: 1.6666666666666667rem;margin-bottom: 1.6666666666666667rem;}#content-10 #content_sm9va0mkm .is-content {}}#content-10 {}#content-10 .sections { margin-top: 0px !important; }#content-10 #content_flshfk2or {opacity: 0;transform: translateX(0rem) translateY(-4.944444444444445rem);}#content-10 #section_1a313a8de {padding-top: 3.3333333333333335rem;padding-bottom: 5.555555555555555rem;background-color: #eeeeee;}#content-10 #content_bb10d1a27 {margin-top: 1.1111111111111112rem;}#content-10 #content_bb10d1a27 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.9px) { #content-10 #content_bb10d1a27 {padding-right: 0rem;}#content-10 #content_bb10d1a27 .is-content {}}@media screen and (max-width: 543.9px) { #content-10 #content_bb10d1a27 {padding-right: 0rem;margin-right: 0rem;margin-left: 0rem;}#content-10 #content_bb10d1a27 .is-content {}}#content-10 #content_a64ca898c {margin-top: 1.1111111111111112rem;}#content-10 #content_a64ca898c .is-content {}#content-10 #content_583362fce {margin-top: 0.4444444444444444rem;}#content-10 #content_583362fce .is-content {}#content-10 #content_7f377ecc9 {margin-top: 0.4444444444444444rem;}#content-10 #content_7f377ecc9 .is-content {}#content-10 #content_f50205e44 {margin-top: 0.4444444444444444rem;}#content-10 #content_f50205e44 .is-content {}#content-10 #content_b62d83a97 {margin-top: 1.1111111111111112rem;}#content-10 #content_b62d83a97 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.9px) { #content-10 #content_b62d83a97 {padding-top: 0.8888888888888888rem;margin-top: 0rem;}#content-10 #content_b62d83a97 .is-content {}}@media screen and (max-width: 543.9px) { #content-10 #content_b62d83a97 {margin-top: 1.3333333333333333rem;}#content-10 #content_b62d83a97 .is-content {}}#content-10 #content_f50b5aa1d {margin-top: 1.1111111111111112rem;}#content-10 #content_f50b5aa1d .is-content {}@media screen and (min-width: 544px) and (max-width: 767.9px) { #content-10 #content_f50b5aa1d {padding-top: 0.8888888888888888rem;margin-top: 0rem;}#content-10 #content_f50b5aa1d .is-content {}}@media screen and (max-width: 543.9px) { #content-10 #content_f50b5aa1d {margin-top: 1.3333333333333333rem;}#content-10 #content_f50b5aa1d .is-content {}}
-			.nav_mt1p08gxa { background-color: rgba(33, 33, 33, 0.5);; }.nav_mt1p08gxa { height: 3.3333333333333335rem; }.is-frontend #content-10 .sections { margin-top: 3.3333333333333335rem; }.nav_mt1p08gxa { padding-top: 0rem; }.nav_mt1p08gxa { padding-bottom: 0rem; }.nav_mt1p08gxa .navbar-inner .logo a { color: #ffffff; }.logo a { text-transform: none; }.nav_mt1p08gxa .navbar-inner .logo { align-items: center; }.nav_mt1p08gxa .navbar-inner .hamburger { align-items: center; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { background-color: #ffffff; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { height: 2px; }.nav_mt1p08gxa .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-6px); }.nav_mt1p08gxa .navbar-inner .hamburger a.open-menu span::after { transform: translateY(6px); }.nav_mt1p08gxa .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-8px); }.nav_mt1p08gxa .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(8px); }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }.nav_mt1p08gxa .navbar-inner nav ul li a span { color: #ffffff; }.nav_mt1p08gxa .navbar-inner nav ul li a { padding-left: 2.05555555556rem; }.nav_mt1p08gxa .navbar-inner nav ul li a { padding-right: 2.05555555556rem; }.nav_mt1p08gxa .navbar-inner nav ul li a span { border-bottom-width: 0rem; }.nav_mt1p08gxa .navbar-inner nav ul li a span { border-bottom-color: #ffffff; }.nav_mt1p08gxa .navbar-inner nav ul li a:hover span, .navbar-inner nav ul li.current-menu-item a span, .navbar-inner nav ul li.current_page_item a span, .nav_mt1p08gxa .navbar-inner nav ul li.wrap-focus a span { color: #b5b5b5; }.nav_mt1p08gxa .navbar-inner nav ul li.current-menu-item a span { color: #b5b5b5; }.nav_mt1p08gxa .navbar-inner nav ul li.current_page_item a span { color: #b5b5b5; }[data-post-type="project"] .navbar-inner nav ul li.portfolio-grid a span, [data-post-type="post"] .navbar-inner nav ul li.blog-overview a span { color: #b5b5b5; }#overlay-menu { background-color: rgba(33, 33, 33, 0.9); }#overlay-menu .overlay-menu-inner nav ul li a span { color: #ffffff; }#overlay-menu .overlay-menu-inner nav ul li a span { text-transform: uppercase; }#overlay-menu .overlay-menu-inner nav ul li a span { letter-spacing: 0.5rem; }@media screen and (min-width: 992px) and (max-width: 1169.9px) { .nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 768px) and (max-width: 991.9px) { .nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (min-width: 544px) and (max-width: 767.9px) { .nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}@media screen and (max-width: 543.9px) { .nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon { height: 14px; }.nav_mt1p08gxa .navbar-inner .hamburger a.menu-icon span { margin-top: 7px; }}
-		</style>
