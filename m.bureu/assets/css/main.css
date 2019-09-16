@@ -234,9 +234,10 @@ footer{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    max-width: 275px;
+    max-width: 260px;
     width: 100%;
     margin-right: 15px;
+    margin-bottom: 20px;
 }
 .persons__image-wrapper img{
     width: 100%;
