@@ -1181,7 +1181,6 @@
                 event.preventDefault();
                 let isChek = $(this).children(".type-grid-text").children('.radio-btn').is(':checked');
                 $('.type-grid-item').each(function () {
-                    console.log($(this).children(".type-grid-text").children('.radio-btn'))
                     $(this).find('.type-grid-img').attr("src", $(this).find('.type-grid-img')
                         .data('src'));
                     $(this).find('.type-grid-text').css('color', '#333333');
@@ -1200,11 +1199,8 @@
                 $text.css('color', '#FF3855');
                 $this.addClass('active');
                 isChek = !isChek;
-                console.log(isChek);
                 $(this).children(".type-grid-text").children('.checkbox').addClass('active');
                 $(this).children(".type-grid-text").children('.radio-btn').prop("checked", isChek)
-                console.log($this.children(".type-grid-text").children('.radio-btn').is(':checked'));
-
             })
             $('.quiz-grid-item').click(function () {
                 let isChek = $(this).children(".type-grid-text").children('.radio-btn').is(':checked');
@@ -1225,8 +1221,6 @@
                     $(this).children(".type-grid-text").children('.checkbox').addClass('active');
                 }
                 isChek = !isChek;
-                console.log(isChek);
-
                 $(this).children(".type-grid-text").children('input.radio-btn').prop("checked", isChek)
 
             });
