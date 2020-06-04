@@ -628,7 +628,7 @@ header {
 
 .party {
     background: url("../img/newParty.jpg") no-repeat center / cover;
-    min-height: 544px;
+    min-height: 344px;
 }
 
 .party {
@@ -2499,8 +2499,11 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 410px) {
+    .saaawqe {
+        width: 85%;
+    }
     img.next-arrow-image{
-        height: 15px !important;
+        height: 25px !important;
     }
     .header-text p {
         margin-top: 60px;
