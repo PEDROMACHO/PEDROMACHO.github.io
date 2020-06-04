@@ -502,10 +502,6 @@ header {
     margin-top: 10px;
 }
 
-.type-grid-img {
-    opacity: .7;
-}
-
 .type-grid-item {
     cursor: pointer;
     text-align: center;
