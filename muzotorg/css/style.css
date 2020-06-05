@@ -21,7 +21,7 @@ select {
 }
 .next-arrow-image{
     max-width: 30px;
-    opacity: .7;
+    opacity: .4;
     height: auto !important;
 }
 .inSevenDays__top_line:before {
@@ -552,7 +552,7 @@ header {
 .next {
     z-index: 1111;
     position: absolute;
-    right: 0px;
+    right: 1px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -2424,6 +2424,10 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 470px) {
+    .third .second-form{
+        max-width: 95%;
+        margin: 0 auto;
+    }
     .card-text-address {
         display: none;
     }
