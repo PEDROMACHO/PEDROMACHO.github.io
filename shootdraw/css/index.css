@@ -1,10 +1,10 @@
 @import url("_fonts.css");
 @import url("_utils.css");
-@import url("components/_header.css");
-@import url("components/_logo-particles.css");
-@import url("components/_scroll.css");
-@import url("components/_marquee.css");
-@import url("components/_social.css");
+@import url("/components/_header.css");
+@import url("/components/_logo-particles.css");
+@import url("/components/_scroll.css");
+@import url("/components/_marquee.css");
+@import url("/components/_social.css");
 @import url("_media.css");
 
 
