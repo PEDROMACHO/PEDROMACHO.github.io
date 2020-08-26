@@ -1,10 +1,10 @@
-@import url("_fonts.css");
-@import url("_utils.css");
-@import url("/components/_header.css");
-@import url("/components/_logo-particles.css");
-@import url("/components/_scroll.css");
-@import url("/components/_marquee.css");
-@import url("/components/_social.css");
-@import url("_media.css");
+@import url("fonts.css");
+@import url("utils.css");
+@import url("/components/header.css");
+@import url("/components/logo-particles.css");
+@import url("/components/scroll.css");
+@import url("/components/marquee.css");
+@import url("/components/social.css");
+@import url("media.css");
 
 
