@@ -1,0 +1,47 @@
+@media (max-width: 1199px) {
+
+    .main-marquee,
+    .accent-h2 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 767px) {
+    .soon {
+        margin: 0;
+    }
+
+    .social {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0);
+        margin: 70px 0;
+    }
+
+    .social__inner {
+        flex-direction: row;
+
+    }
+
+    .social__inner a {
+        margin-bottom: 0;
+        margin-right: 100px;
+    }
+    .social__inner a:last-child {
+        margin-right: 0;
+    }
+
+    .main-marquee,
+    .accent-h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .main-marquee,
+    .accent-h2 {
+        font-size: 25px;
+    }
+}
