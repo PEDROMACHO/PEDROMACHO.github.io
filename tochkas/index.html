@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <div class="header__top-menu">
+                            <ul>
+                                <li>
+                                    <a href="">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="">Партнерам</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__top-info">
+                            <a href="mailto:sale@tochkas.com">sale@tochkas.com</a>
+                            <a href="tel:74996538216">+7 499 653-82-16</a>
+                            <a class="text-uppercase">пн-пт: с 10.00 до 19.00</a>
+                            <div class="btn btn-primary">заказать звонок</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="/" class="logo">
+                            <img src="./img/logo--big.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control rounded-0 search-input">
+                                <button class="btn btn-search" type="button">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                                            fill="#323232" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 d-flex align-items-center justify-content-end">
+                        <a href="/" class="header__bottom-catalog">каталог услуг</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="jumbotron jumbotron-index">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 d-flex justify-content-center flex-column">
+                    <div class="jumbotron-content">
+                        <h1 class="jumbotron-title">Гибкий сборочный участок для производителей и поставщиков товаров
+                        </h1>
+                        <div class="jumbotron-description">
+                            Принимаем комплектующие на склад, обрабатываем по техническому заданию, контролируем
+                            качество и отвозим, куда вам нужно
+                        </div>
+                        <div class="btn btn-primary">оставить заявку</div>
+                    </div>
+                </div>
+                <div class="col-5 d-flex justify-content-end">
+                    <img src="/img/jumbotron--index.png" class="jumbotron-image" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="business-area section--grey section--p-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="business-area__title">Сферы бизнеса, которые используют <br> гибкий сборочный участок
+                    </h2>
+                    <div class="business-area__content">
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-1.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                POS материалы
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-2.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Рекламная и сувенирная <br> продукция
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-3.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Электрика и электроника
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-4.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                DIY продукция
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-5.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Творчество и хобби
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-6.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Одноразовая посуда <br> и упаковка для HoReCa
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-7.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Компоненты для автомобилестроения
+                            </div>
+                        </div>
+                        <div class="business-area__item">
+                            <div class="business-area__item-image">
+                                <img src="/img/buisness/business-area-8.png" alt="">
+                            </div>
+                            <div class="business-area__item-content">
+                                Упаковка из картона <br> и пластика
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services section--p-large">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="services__title">Услуги</h2>
+                    <div class="services__list">
+                        <a href="/" class="services__item">Сборка</a>
+                        <a href="/" class="services__item">Склейка</a>
+                        <a href="/" class="services__item">Вклейка</a>
+                        <a href="/" class="services__item">Обтяжка лайнером</a>
+                        <a href="/" class="services__item">Финальная сборка</a>
+                        <a href="/" class="services__item">Приклейка скотча</a>
+                        <a href="/" class="services__item">Стикетирование</a>
+                        <a href="/" class="services__item">Маркировка</a>
+                        <a href="/" class="services__item">Фасовка</a>
+                        <a href="/" class="services__item">Сборка в корпус</a>
+                        <a href="/" class="services__item">Упаковка</a>
+                        <a href="/" class="services__item">Комплектация</a>
+                        <a href="/" class="services__item">Вложение</a>
+                        <a href="/" class="services__item">Копакинг</a>
+                        <a href="/" class="services__item">Отверточная сборка</a>
+                        <a href="/" class="services__item">Сортировка</a>
+                        <a href="/" class="services__item">Мэтчинг / Matching</a>
+                        <a href="/" class="services__item">Отгрузка для e-comm</a>
+                        <a href="/" class="services__item">Ручные работы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculation section--grey section--p-middle">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="calculation__title">Предварительный расчет обработки</h2>
+                    <div class="calculation__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="calculation-form">
+                        <div class="calculation-form__left">
+                            <div class="calculation-form__input">
+                                <div class="calculation-form__input-title">Количество изделий</div>
+                                <div class="calculation-form__input-group">
+                                    <div class="circle-icon">
+                                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1 3.85711L12 6.71465L23 3.85943M1 3.85711V18.1425L12 21L23 18.142V3.85943M1 3.85711L12 1L23 3.85943"
+                                                stroke="#323232" stroke-miterlimit="10" />
+                                            <path d="M12 6.71362V20.999" stroke="#323232" />
+                                        </svg>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-text">шт.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calculation-form__input">
+                                <div class="calculation-form__input-title">
+                                    Расчётное время обработки
+                                    <div class="tooltip-info ms-1" data-bs-toggle="tooltip" data-bs-placement="right"
+                                        title="Введите ориентировочное время, затрачиваемое на обработку 1 ед. продукции">
+                                        <svg width="7" height="9" viewBox="0 0 7 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.79078 6.648C2.79078 6.348 2.80878 6.076 2.84478 5.832C2.88478 5.584 2.96878 5.344 3.09678 5.112C3.21278 4.888 3.35078 4.706 3.51078 4.566C3.67078 4.422 3.84278 4.284 4.02678 4.152C4.21078 4.02 4.39278 3.858 4.57278 3.666C4.73278 3.486 4.83878 3.306 4.89078 3.126C4.94278 2.942 4.96878 2.748 4.96878 2.544C4.96878 2.364 4.94678 2.202 4.90278 2.058C4.86278 1.91 4.79478 1.784 4.69878 1.68C4.55478 1.5 4.37478 1.376 4.15878 1.308C3.94678 1.24 3.72478 1.206 3.49278 1.206C3.27278 1.206 3.06478 1.236 2.86878 1.296C2.67678 1.356 2.51678 1.45 2.38878 1.578C2.26078 1.694 2.16678 1.836 2.10678 2.004C2.04678 2.168 2.01678 2.346 2.01678 2.538H0.900781C0.924781 2.19 1.00678 1.86 1.14678 1.548C1.29078 1.232 1.48878 0.971999 1.74078 0.767999C1.97678 0.568 2.24678 0.422 2.55078 0.33C2.85478 0.233999 3.16078 0.185999 3.46878 0.185999C3.87678 0.185999 4.26278 0.247999 4.62678 0.372C4.99478 0.496 5.30078 0.702 5.54478 0.99C5.73278 1.194 5.87278 1.428 5.96478 1.692C6.05678 1.956 6.10278 2.234 6.10278 2.526C6.10278 2.882 6.03078 3.214 5.88678 3.522C5.74678 3.83 5.55678 4.108 5.31678 4.356C5.18478 4.5 5.04078 4.632 4.88478 4.752C4.73278 4.872 4.58678 4.992 4.44678 5.112C4.31078 5.232 4.20278 5.364 4.12278 5.508C4.01878 5.696 3.95878 5.87 3.94278 6.03C3.93078 6.186 3.92478 6.392 3.92478 6.648H2.79078ZM2.79678 9V7.686H3.92478V9H2.79678Z"
+                                                fill="#255C4D" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="calculation-form__input-group">
+                                    <div class="circle-icon">
+                                        <svg width="19" height="22" viewBox="0 0 19 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="9.51064" cy="12.4894" r="8.51064" stroke="#323232" />
+                                            <path d="M9.51062 12.4893L13.3404 8.65955" stroke="#323232" />
+                                            <path d="M9.51062 1.42554V3.97873" stroke="#323232" />
+                                            <path d="M12.0638 1L6.95746 1" stroke="#323232" />
+                                            <path d="M15.4681 6.10643L16.7447 4.82983" stroke="#323232" />
+                                        </svg>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-text">сек.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculation-form__right">
+                            <div class="calculation-form__right-title">
+                                Итог предварительного расчёта
+                                <div class="tooltip-info ms-1" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Примерный расчет не показывает финальное предложение, он нужен, чтобы показать примерный порядок стоимости и требует уточнения.">
+                                    <svg width="7" height="9" viewBox="0 0 7 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.79078 6.648C2.79078 6.348 2.80878 6.076 2.84478 5.832C2.88478 5.584 2.96878 5.344 3.09678 5.112C3.21278 4.888 3.35078 4.706 3.51078 4.566C3.67078 4.422 3.84278 4.284 4.02678 4.152C4.21078 4.02 4.39278 3.858 4.57278 3.666C4.73278 3.486 4.83878 3.306 4.89078 3.126C4.94278 2.942 4.96878 2.748 4.96878 2.544C4.96878 2.364 4.94678 2.202 4.90278 2.058C4.86278 1.91 4.79478 1.784 4.69878 1.68C4.55478 1.5 4.37478 1.376 4.15878 1.308C3.94678 1.24 3.72478 1.206 3.49278 1.206C3.27278 1.206 3.06478 1.236 2.86878 1.296C2.67678 1.356 2.51678 1.45 2.38878 1.578C2.26078 1.694 2.16678 1.836 2.10678 2.004C2.04678 2.168 2.01678 2.346 2.01678 2.538H0.900781C0.924781 2.19 1.00678 1.86 1.14678 1.548C1.29078 1.232 1.48878 0.971999 1.74078 0.767999C1.97678 0.568 2.24678 0.422 2.55078 0.33C2.85478 0.233999 3.16078 0.185999 3.46878 0.185999C3.87678 0.185999 4.26278 0.247999 4.62678 0.372C4.99478 0.496 5.30078 0.702 5.54478 0.99C5.73278 1.194 5.87278 1.428 5.96478 1.692C6.05678 1.956 6.10278 2.234 6.10278 2.526C6.10278 2.882 6.03078 3.214 5.88678 3.522C5.74678 3.83 5.55678 4.108 5.31678 4.356C5.18478 4.5 5.04078 4.632 4.88478 4.752C4.73278 4.872 4.58678 4.992 4.44678 5.112C4.31078 5.232 4.20278 5.364 4.12278 5.508C4.01878 5.696 3.95878 5.87 3.94278 6.03C3.93078 6.186 3.92478 6.392 3.92478 6.648H2.79078ZM2.79678 9V7.686H3.92478V9H2.79678Z"
+                                            fill="#255C4D" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="calculation-form__amount">
+                                <div class="calculation-form__amount-title">
+                                    Стоимость обработки партии:
+                                </div>
+                                <div class="calculation-form__amount-content">
+                                    1 000 ₽
+                                </div>
+                            </div>
+                            <div class="calculation-form__amount">
+                                <div class="calculation-form__amount-title">
+                                    Стоимость обработки одного изделия в партии:
+                                </div>
+                                <div class="calculation-form__amount-content">
+                                    1 000 ₽
+                                </div>
+                            </div>
+                            <div class="calculation-form_button">
+                                <div class="btn btn-primary">
+                                    Уточнить расчет
+                                </div>
+                            </div>
+                            <div class="calculation-form__info">
+                                Технолог учтет нюансы обработки при уточнении расчета: в 9 из 10 случаях стоимость
+                                в уточненном расчёте ниже от 5% до 30%, чем стоимость в примерном расчёте.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback section--green section--p-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="feedback__image">
+                        <img src="/img/feedback.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feedback__form">
+                        <div class="feedback__form-title">
+                            Не нашли услугу или вашу сферу?
+                        </div>
+                        <div class="feedback__form-subtitle">
+                            Оставьте заявку и мы с вами свяжемся
+                        </div>
+                        <div class="feedback__form-content">
+                            <div class="row">
+                                <div class="col-6 mt-4">
+                                    <label for="name" class="form-label form-label--white">Имя</label>
+                                    <input type="text" id="name" class="form-control"
+                                        aria-describedby="passwordHelpBlock" placeholder="Введите ваше имя">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 mt-4">
+                                    <label for="name" class="form-label form-label--white">Телефон</label>
+                                    <input type="text" id="name" class="form-control"
+                                        aria-describedby="passwordHelpBlock" placeholder="Введите ваш телефон">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback__form-button">
+                            <div class="btn btn-primary btn-primary--white">Отправить</div>
+                        </div>
+                        <div class="feedback__form-terms">
+                            Отправляя заявку, Вы даёте своё согласие на обработку персональных <br> данных и принимаете
+                            Пользовательское соглашение.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-data section--grey section--p-large">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="info-data__content">
+                        <div class="info-data__item">
+                            <div class="info-data__item-num">>30 000</div>
+                            <div class="info-data__item-text">
+                                человеко-часов каждый месяц для обработки ваших товаров
+                            </div>
+                        </div>
+                        <div class="info-data__item">
+                            <div class="info-data__item-num">800</div>
+                            <div class="info-data__item-text">
+                                квадратных метров производственных и складских площадей
+                            </div>
+                        </div>
+                        <div class="info-data__item">
+                            <div class="info-data__item-num">50</div>
+                            <div class="info-data__item-text">
+                                сборщиков в смене цеха
+                            </div>
+                        </div>
+                        <div class="info-data__item">
+                            <div class="info-data__item-num">150</div>
+                            <div class="info-data__item-text">
+                                сборщиков в смене вне цеха
+                            </div>
+                        </div>
+                        <div class="info-data__item">
+                            <div class="info-data__item-num">>3 100</div>
+                            <div class="info-data__item-text">
+                                проектов собраны и упакованы
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="priorities section--p-large">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-start priorities__title">Приоритеты</h2>
+                </div>
+                <div class="col-lg-5">
+                    <div class="priorities__item">
+                        <div class="priorities__item-title">Прозрачность</div>
+                        <div class="priorities__item-subtitle">От расчета до отгрузки готовых товаров вы знаете, как
+                            идут дела:</div>
+                        <div class="priorities__item-list">
+                            <ul>
+                                <li>из чего состоит расчет, чтобы вы не гадали, что мы учли, <br> а что — нет</li>
+                                <li>подтверждение тайминга и срока сборки перед запуском <br> проекта, чтобы вы имели
+                                    актуальную информацию</li>
+                                <li>быстрая обратная связь о любом событии, которое <br> не было запланировано, чтобы
+                                    вы могли реагировать <br> своевременно</li>
+                                <li>понятная система скидок от оборота</li>
+                            </ul>
+                        </div>
+                        <a href="/" class="priorities__item-link">
+                            Как прозрачность помогает избегать ошибок?
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-1">
+                    <div class="priorities__item">
+                        <div class="priorities__item-title">Предсказуемость</div>
+                        <div class="priorities__item-subtitle">Сборка — ответственный момент жизненного цикла товара:
+                        </div>
+                        <div class="priorities__item-list">
+                            <ul>
+                                <li>должен быть собран без отклонений от технического задания</li>
+                                <li>должен остаться в согласованном бюджете</li>
+                                <li>должен быть у клиента в срок в ожидаемом количестве</li>
+                            </ul>
+                        </div>
+                        <a href="/" class="priorities__item-link">
+                            Что делаем, чтобы быть точнее?
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="priorities__item">
+                        <div class="priorities__item-title">Эффективность</div>
+                        <div class="priorities__item-subtitle">Если проект можно собрать за меньшее количество часов —
+                            так и будет:</div>
+                        <div class="priorities__item-list">
+                            <ul>
+                                <li>технолог рассчитывает затраты из необходимых ресурсов, а не из тех, что свободны
+                                    сейчас</li>
+                                <li>стоимость сборки напрямую связана с затраченными на сборку часами</li>
+                            </ul>
+                        </div>
+                        <a href="/" class="priorities__item-link">
+                            Какие ресурсы используем?
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews section--grey section--p-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <h2 class="text-start reviews__title">Отзывы</h2>
+                        </div>
+                    </div>
+                    <div class="reviews__content">
+                        <div class="row justify-content-center">
+                            <div class="col-1 position-relative">
+                                <div class="reviews__slider-prev">
+                                    <svg width="22" height="40" viewBox="0 0 22 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.8554 1.14446L1.99986 20L20.8554 38.8555" stroke="#0026F5"
+                                            stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="reviews__slider swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="reviews__item">
+                                                <div class="reviews__item-image">
+                                                    <img src="/img/reviews/upeco.png" alt="">
+                                                </div>
+                                                <div class="reviews__item-content">
+                                                    «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor eu elit
+                                                    elementum rhoncus ac. Tristique sed quis scelerisque diam. Magna
+                                                    pellentesque
+                                                    vitae scelerisque sed urna dui viverra. Laoreet nibh donec dignissim ipsum.»
+                                                </div>
+                                                <div class="reviews__item-author">
+                                                    Иван Иванов
+                                                    <span>должность</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1 position-relative">
+                                <div class="reviews__slider-next">
+                                    <svg width="22" height="40" viewBox="0 0 22 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.855537 1.14446L19.7111 20L0.855537 38.8555" stroke="#0026F5"
+                                            stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients section--p-large">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="clients__title">Клиенты</h2>
+                    <div class="clients__content">
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                        <a href="/" class="clients__item">
+                            <img src="/img/clients/vega.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-section section--grey section--p-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="info-section__title text-start">Гибкий сборочный участок <br> Точка сборки</h2>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="info-section__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="info-section__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer__logo">
+                        <img src="/img/logo-white--big.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul class="footer__menu">
+                        <li>
+                            <a href="/">о компании</a>
+                        </li>
+                        <li>
+                            <a href="/">партнерам</a>
+                        </li>
+                        <li>
+                            <a href="/">контакты</a>
+                        </li>
+                        <li>
+                            <a href="/">каталог услуг</a>
+                        </li>
+                        <li>
+                            <a href="/">Карта сайта</a>
+                        </li>
+                    </ul>
+                    <div class="footer__button">
+                        <div class="btn btn-primary btn-primary--white">связаться с нами!</div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex flex-column align-items-end">
+                    <a href="/" class="footer__phone">
+                        +7 499 653-82-16
+                    </a>
+                    <div class="footer__info">
+                        <span class="text-uppercase">пн-пт: с 10.00 до 19.00</span>
+                        <a href="/">sale@tochkas.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="footer__copyright">
+                            © Точка сборки — Гибкий сборочный участок для производителей и поставщиков товаров. 2021
+                        </div>
+                        <a href="/" class="footer__policy">Политика конфеденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
