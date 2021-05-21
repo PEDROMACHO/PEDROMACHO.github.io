@@ -216,7 +216,7 @@ h2 {
 }
 
 .services__item:after {
-    content: url('/img/arrow.svg');
+    content: url('../img/arrow.svg');
     position: absolute;
     background-repeat: no-repeat;
     width: 11px;
