@@ -1,4 +1,5 @@
 @import url('../fonts/Manrope/stylesheet.css');
+@import url('../libs/hamburgers/hamburgers.min.css');
 
 :root {
     --text-color: #323232;
@@ -30,6 +31,10 @@ h2 {
     line-height: 126.6%;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.logo img {
+    max-width: 100%;
 }
 
 .header__top {
@@ -250,7 +255,6 @@ h2 {
     background-color: var(--accent-color);
     padding: 0 50px;
     display: flex;
-    align-items: left;
     justify-content: center;
     flex-direction: column;
 }
@@ -276,7 +280,8 @@ h2 {
 }
 
 .tooltip-info {
-    width: 17px;
+    max-width: 17px;
+    width: 100%;
     height: 17px;
     border: 1px solid #255C4D;
     border-radius: 100%;
@@ -632,8 +637,32 @@ h2 {
     transition: .3s ease-in-out;
 }
 
-.footer__policy:hover{
+.footer__policy:hover {
     color: var(--accent-dark-color);
+}
+
+.header__mobile {
+    box-shadow: 0px 1px 0px #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__mobile .logo {
+    padding: 0 15px;
+}
+
+.header__mobile-search {
+    max-width: 51px;
+    width: 100%;
+    height: 51px;
+    background-color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25);
 }
 
 .btn {
@@ -726,4 +755,246 @@ ul li:before {
     position: absolute;
     left: -25px;
     top: 10px;
+}
+
+
+@media(max-width: 1400px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .info-data__item-text {
+        font-size: 16px;
+    }
+
+    .info-data__item-num {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .footer__phone {
+        align-self: center;
+    }
+
+    .footer__info {
+        align-self: start;
+        align-items: flex-start;
+    }
+
+    .clients__content {
+        row-gap: 40px;
+        column-gap: 50px;
+    }
+
+    .services__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__top-menu ul li a {
+        font-size: 12px;
+    }
+
+    .business-area__item-content {
+        font-size: 14px;
+    }
+
+    .header__top-menu ul {
+        gap: 15px;
+    }
+
+    .header__top-info {
+        gap: 15px;
+    }
+
+    .header__top-info a {
+        font-size: 12px;
+    }
+
+    .header__bottom-catalog {
+        font-size: 15px;
+    }
+
+    .feedback__image img {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+    .clients__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clients__item {
+        justify-self: center;
+    }
+
+    .info-data__content {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .feedback__image {
+        margin-bottom: 35px;
+    }
+
+    .jumbotron-index {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .jumbotron-image {
+        max-width: 100%;
+    }
+
+    .calculation-form {
+        grid-template-columns: 1fr;
+    }
+
+    .calculation-form__left {
+        padding: 40px 20px;
+        align-items: center;
+    }
+
+    .calculation-form__input {
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .calculation-form__input-group {
+        max-width: none;
+    }
+
+    .calculation-form__input-title {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__bottom {
+        margin-top: 30px;
+    }
+
+    .footer__button {
+        text-align: center;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__menu {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .info-section__content {
+        font-size: 15px;
+    }
+
+    .clients__content {
+        column-gap: normal;
+    }
+
+    .reviews__title {
+        margin-bottom: 35px;
+    }
+
+    .priorities__item {
+        margin-top: 40px;
+    }
+
+    .priorities__item-title {
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 15px;
+    }
+
+    .priorities__item-subtitle {
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+
+    ul li {
+        font-size: 15px;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+
+    .feedback__form-title {
+        font-size: 20px;
+        line-height: 126.6%;
+        margin-bottom: 8px;
+    }
+
+    .feedback__form-subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .calculation-form__right {
+        padding: 40px 20px;
+    }
+
+    .calculation-form__right-title {
+        font-size: 20px;
+        line-height: 127%;
+    }
+
+    .services__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services__item:after {
+        width: 17px;
+        height: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 124%;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .calculation__description {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 150%;
+    }
+
+    .jumbotron-description {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        margin-bottom: 20px;
+    }
+
+    .business-area__content {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+
+    .section--p-large {
+        padding: 50px 0;
+    }
+
+    .section--p-middle {
+        padding: 40px 0;
+    }
+
+    .clients__item {
+        max-width: 100%;
+    }
+
+    .clients__item img {
+        max-width: 100%;
+    }
 }

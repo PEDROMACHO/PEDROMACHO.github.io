@@ -14,6 +14,25 @@ $(document).ready(function () {
             nextEl: '.reviews__slider-next',
             prevEl: '.reviews__slider-prev',
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetweenSlides: 30
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetweenSlides: 30
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetweenSlides: 30
+            },
+        }
+    
+    });
+    
+    $('.hamburger').on('click', function(){
+        $(this).toggleClass('is-active');
     });
 
 });

@@ -16,59 +16,80 @@
 
 <body>
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-between align-items-center">
-                        <div class="header__top-menu">
-                            <ul>
-                                <li>
-                                    <a href="">О компании</a>
-                                </li>
-                                <li>
-                                    <a href="">Партнерам</a>
-                                </li>
-                                <li>
-                                    <a href="">Контакты</a>
-                                </li>
-                            </ul>
+        <div class="d-none d-lg-block">
+            <div class="header__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between align-items-center">
+                            <div class="header__top-menu">
+                                <ul>
+                                    <li>
+                                        <a href="">О компании</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Партнерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__top-info">
+                                <a href="mailto:sale@tochkas.com">sale@tochkas.com</a>
+                                <a href="tel:74996538216">+7 499 653-82-16</a>
+                                <a class="text-uppercase">пн-пт: с 10.00 до 19.00</a>
+                                <div class="btn btn-primary">заказать звонок</div>
+                            </div>
                         </div>
-                        <div class="header__top-info">
-                            <a href="mailto:sale@tochkas.com">sale@tochkas.com</a>
-                            <a href="tel:74996538216">+7 499 653-82-16</a>
-                            <a class="text-uppercase">пн-пт: с 10.00 до 19.00</a>
-                            <div class="btn btn-primary">заказать звонок</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="/" class="logo">
+                                <img src="./img/logo--big.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div class="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control rounded-0 search-input">
+                                    <button class="btn btn-search" type="button">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                                                fill="#323232" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-flex align-items-center justify-content-end">
+                            <a href="/" class="header__bottom-catalog">каталог услуг</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="header__bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <img src="./img/logo--big.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="search">
-                            <div class="input-group">
-                                <input type="text" class="form-control rounded-0 search-input">
-                                <button class="btn btn-search" type="button">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
-                                            fill="#323232" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 d-flex align-items-center justify-content-end">
-                        <a href="/" class="header__bottom-catalog">каталог услуг</a>
-                    </div>
+        <div class="d-block d-lg-none">
+            <div class="header__mobile">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="logo">
+                    <img src="./img/logo--small.png" alt="">
+                </div>
+                <div class="header__mobile-search">
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.8542 13.4167H14.0971L13.8287 13.1579C14.7679 12.0654 15.3333 10.6471 15.3333 9.10417C15.3333 5.66375 12.5446 2.875 9.10417 2.875C5.66375 2.875 2.875 5.66375 2.875 9.10417C2.875 12.5446 5.66375 15.3333 9.10417 15.3333C10.6471 15.3333 12.0654 14.7679 13.1579 13.8287L13.4167 14.0971V14.8542L18.2083 19.6362L19.6362 18.2083L14.8542 13.4167ZM9.10417 13.4167C6.71792 13.4167 4.79167 11.4904 4.79167 9.10417C4.79167 6.71792 6.71792 4.79167 9.10417 4.79167C11.4904 4.79167 13.4167 6.71792 13.4167 9.10417C13.4167 11.4904 11.4904 13.4167 9.10417 13.4167Z"
+                            fill="#323232" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -77,7 +98,7 @@
     <div class="jumbotron jumbotron-index">
         <div class="container">
             <div class="row">
-                <div class="col-7 d-flex justify-content-center flex-column">
+                <div class="col-12 col-xl-7 d-flex justify-content-start justify-content-xxl-center flex-column">
                     <div class="jumbotron-content">
                         <h1 class="jumbotron-title">Гибкий сборочный участок для производителей и поставщиков товаров
                         </h1>
@@ -88,7 +109,7 @@
                         <div class="btn btn-primary">оставить заявку</div>
                     </div>
                 </div>
-                <div class="col-5 d-flex justify-content-end">
+                <div class="col-12 col-xl-5 d-flex justify-content-center justify-content-xl-end">
                     <img src="./img/jumbotron--index.png" class="jumbotron-image" alt="">
                 </div>
             </div>
@@ -212,7 +233,7 @@
                         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-12 col-xl-10">
                     <div class="calculation-form">
                         <div class="calculation-form__left">
                             <div class="calculation-form__input">
@@ -311,12 +332,12 @@
     <section class="feedback section--green section--p-middle">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
                     <div class="feedback__image">
                         <img src="./img/feedback.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-6">
                     <div class="feedback__form">
                         <div class="feedback__form-title">
                             Не нашли услугу или вашу сферу?
@@ -326,14 +347,14 @@
                         </div>
                         <div class="feedback__form-content">
                             <div class="row">
-                                <div class="col-6 mt-4">
+                                <div class="col-12 col-md-6 mt-4">
                                     <label for="name" class="form-label form-label--white">Имя</label>
                                     <input type="text" id="name" class="form-control"
                                         aria-describedby="passwordHelpBlock" placeholder="Введите ваше имя">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-6 mt-4">
+                                <div class="col-12 col-md-6 mt-4">
                                     <label for="name" class="form-label form-label--white">Телефон</label>
                                     <input type="text" id="name" class="form-control"
                                         aria-describedby="passwordHelpBlock" placeholder="Введите ваш телефон">
@@ -418,7 +439,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 offset-1">
+                <div class="col-lg-5 offset-lg-1">
                     <div class="priorities__item">
                         <div class="priorities__item-title">Предсказуемость</div>
                         <div class="priorities__item-subtitle">Сборка — ответственный момент жизненного цикла товара:
@@ -466,7 +487,7 @@
                     </div>
                     <div class="reviews__content">
                         <div class="row justify-content-center">
-                            <div class="col-1 position-relative">
+                            <div class="d-none d-sm-block col-1 position-relative">
                                 <div class="reviews__slider-prev">
                                     <svg width="22" height="40" viewBox="0 0 22 40" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -475,7 +496,7 @@
                                     </svg>
                                 </div>
                             </div>
-                            <div class="col-10">
+                            <div class="col-12 col-sm-10">
                                 <div class="reviews__slider swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -484,10 +505,12 @@
                                                     <img src="./img/reviews/upeco.png" alt="">
                                                 </div>
                                                 <div class="reviews__item-content">
-                                                    «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor eu elit
+                                                    «Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor eu
+                                                    elit
                                                     elementum rhoncus ac. Tristique sed quis scelerisque diam. Magna
                                                     pellentesque
-                                                    vitae scelerisque sed urna dui viverra. Laoreet nibh donec dignissim ipsum.»
+                                                    vitae scelerisque sed urna dui viverra. Laoreet nibh donec dignissim
+                                                    ipsum.»
                                                 </div>
                                                 <div class="reviews__item-author">
                                                     Иван Иванов
@@ -498,7 +521,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-1 position-relative">
+                            <div class="d-none d-sm-block col-1 position-relative">
                                 <div class="reviews__slider-next">
                                     <svg width="22" height="40" viewBox="0 0 22 40" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -567,14 +590,30 @@
                 <div class="col-12">
                     <h2 class="info-section__title text-start">Гибкий сборочный участок <br> Точка сборки</h2>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="info-section__content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                                accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla
+                                luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 mt-3 mt-md-0">
                             <div class="info-section__content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                                accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla
+                                luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
                             </div>
                         </div>
                     </div>
@@ -586,12 +625,12 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-xxl-3">
                     <div class="footer__logo">
                         <img src="./img/logo-white--big.png" alt="">
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-xl-8 col-xxl-6 mt-4 mt-xxl-0">
                     <ul class="footer__menu">
                         <li>
                             <a href="/">о компании</a>
@@ -613,7 +652,7 @@
                         <div class="btn btn-primary btn-primary--white">связаться с нами!</div>
                     </div>
                 </div>
-                <div class="col-3 d-flex flex-column align-items-end">
+                <div class="col-12 col-xl-4 col-xxl-3 d-flex flex-column align-items-end mt-4 mt-xxl-0">
                     <a href="/" class="footer__phone">
                         +7 499 653-82-16
                     </a>
@@ -625,11 +664,11 @@
             </div>
             <div class="footer__bottom">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-between">
-                        <div class="footer__copyright">
+                    <div class="col-12 d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="footer__copyright order-2 order-lg-1 mt-3 mt-lg-0">
                             © Точка сборки — Гибкий сборочный участок для производителей и поставщиков товаров. 2021
                         </div>
-                        <a href="/" class="footer__policy">Политика конфеденциальности</a>
+                        <a href="/" class="footer__policy order-1 order-lg-2">Политика конфеденциальности</a>
                     </div>
                 </div>
             </div>
